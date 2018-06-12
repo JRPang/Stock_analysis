@@ -119,7 +119,7 @@ def get_stocks_info(country_code_investingcom, user_agent):
 #---- 1b. Scrape historical prices from investing.com (Using requests) ----        
 # requests get and post to extract historical prices
 def historical_extract(profile_link, start, end, user_agent):
-    print(profile_link)
+    #print(profile_link)
     
     session = requests.Session()
     session.headers['User-Agent'] = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
