@@ -1,10 +1,10 @@
-# Stock_analysis: Kuala Lumpur Stock Exchange(Malaysia Stock Market) 
+# Stock analysis: Kuala Lumpur Stock Exchange(Malaysia Stock Market) 
 
-Screen out potential stocks listed on Malaysia stock market using quantitative analysis. The stock list and historical stock prices scrapped from <https://www.investing.com/>, used to find out the stocks with high growth potential and low risk. 
+Screen out potential stocks listed on Malaysia stock market using quantitative analysis. The stock list and historical prices scrapped from <https://www.investing.com/> are used to find out the stocks with high growth potential and low risk. 
 
-In order to balance the good historical performance and investment diversification, correlation among the potential stocks are assessed in this analysis. A diversification strategy can help you achieve more consistent returns over time and reduce your overall investment risk.
+In order to balance the good historical performance and investment diversification, correlations among the potential stocks are assessed in this analysis. A diversification strategy can help you achieve more consistent returns over time and reduce your overall investment risk.
 
-Additionally, two additive time series model are built to predict and compare the future values of potential stock pairs. Prophet package developed by Facebook Data Science team are used to build the additive time series model, more information about this package can be found at <https://github.com/facebook/prophet/tree/v0.3/python/fbprophet>.
+Additionally, two additive time series models are built to predict and compare the future values of potential stock pairs. Prophet package developed by Facebook Data Science team is used to build the additive time series model, more information about this package can be found at <https://github.com/facebook/prophet/tree/v0.3/python/fbprophet>.
 
 
 ## Important Links for web scrapping:
